@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback: Taller 1.4 - Modelo Conceptual</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 15px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.05);
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .highlight {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #27ae60;
+            margin: 20px 0;
+        }
+        .warning {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+        }
+        .suggestion-box {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border: 1px solid #b8daff;
+        }
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .badge-success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .badge-warning {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, #ccc, #333, #ccc);
+            margin: 30px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .image-placeholder {
+            background-color: #ecf0f1;
+            border: 2px dashed #3498db;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            margin: 25px 0;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        .image-placeholder i {
+            font-size: 48px;
+            display: block;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+        .caption {
+            text-align: center;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        .note-box {
+            background-color: #d1ecf1;
+            border: 1px solid #bee5eb;
+            padding: 15px;
+            border-radius: 5px;
+            color: #0c5460;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h1>UNIVERSIDAD ANDINA DEL CUSCO</h1>
+            <h2 style="border-left: none; color: #2c3e50; font-size: 18px;">FACULTAD DE INGENIERÍA Y ARQUITECTURA</h2>
+            <div style="background-color: #ecf0f1; padding: 15px; border-radius: 8px; margin-top: 20px;">
+                <h2 style="border-left: none; margin: 0; color: #2980b9;">RETROALIMENTACIÓN DEL TALLER 1.4</h2>
+                <p style="text-align: center; margin: 5px 0 0 0;"><strong>Modelo Conceptual - Carrito Cafetero</strong></p>
+            </div>
+        </div>
+
+        <!-- Equipo -->
+        <div style="display: flex; justify-content: space-between; background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 25px;">
+            <div><strong>Curso:</strong> Modelado de Base de Datos</div>
+            <div><strong>Docente:</strong> Hugo Espetia Huamanga</div>
+            <div><strong>Equipo:</strong> Los Dogs Chamos</div>
+        </div>
+
+        <!-- Introducción al feedback -->
+        <div class="highlight">
+            <p style="margin: 0; font-size: 16px;"><strong>🌟 ¡Excelente trabajo, equipo "Los Dogs Chamos"!</strong> Han presentado un informe de taller muy completo y bien estructurado. Han cubierto todos los aspectos fundamentales para la creación de un modelo conceptual. A continuación, se presenta una retroalimentación detallada para potenciar aún más su excelente trabajo.</p>
+        </div>
+
+        <!-- Análisis General -->
+        <h2>📊 Análisis General del Informe</h2>
+        <p>El informe demuestra una clara comprensión de los objetivos del taller. Han seguido una metodología lógica: desde el análisis del negocio hasta la representación gráfica del modelo conceptual. La redacción es clara y el trabajo en equipo se refleja en la cohesión del documento.</p>
+
+        <!-- Puntos Fuertes -->
+        <h2>✅ Puntos Fuertes a Destacar</h2>
+        <ul>
+            <li><strong>Estructura del Informe:</strong> Siguen un formato académico adecuado (carátula, introducción, desarrollo, conclusiones, bibliografía), lo que le da un gran valor al trabajo.</li>
+            <li><strong>Justificación del Tema:</strong> La introducción explica muy bien por qué es importante el modelado de bases de datos para un negocio real, contextualizando el problema.</li>
+            <li><strong>Proceso Metodológico:</strong> Describen paso a paso cómo llegaron al modelo final (análisis de procesos → identificación de entidades → definición de relaciones → diagrama DER).</li>
+            <li><strong>Identificación de Entidades:</strong> Las entidades seleccionadas (<code>cliente</code>, <code>personal</code>, <code>proveedor</code>, <code>producto</code>, <code>boleta</code>, <code>detalle_boleta</code>) son perfectamente adecuadas para un negocio de este tipo.</li>
+        </ul>
+
+        <!-- Sección de la Imagen -->
+        <h2>🖼️ Sobre la Imagen del Diagrama (img_1.png)</h2>
+        
+        <div class="note-box">
+            <strong>📌 Nota importante:</strong> En su documento original se indica "Imagen 1: Diagrama del negocio cafetero" y se menciona "la imagen esta con img_1.png". A continuación, se muestra el espacio correspondiente para dicha imagen.
+        </div>
+
+        <!-- Placeholder de la imagen -->
+        <div class="image-placeholder">
+            <i>🖼️</i>
+            <div style="font-size: 24px; font-weight: bold;">IMAGEN 1</div>
+            <div style="font-size: 16px; margin: 10px 0;">Diagrama Entidad-Relación del Carrito Cafetero</div>
+            <div style="font-size: 14px; background-color: white; padding: 8px; border-radius: 4px; display: inline-block;">
+                <code>img_1.png</code> - Diagrama realizado en Lucidchart
+            </div>
+            <div style="margin-top: 20px; font-size: 14px; color: #e67e22;">
+                ⚠️ Esta imagen debe insertarse aquí en la versión final del documento
+            </div>
+        </div>
+        <div class="caption">
+            <strong>Figura 1:</strong> Representación gráfica del modelo conceptual del carrito cafetero. Fuente: Elaboración propia en Lucidchart (2026).
+        </div>
+
+        <div class="warning" style="margin-top: 20px;">
+            <p><strong>🔍 Observación sobre la imagen:</strong> Para un informe académico, la inclusión de las figuras es fundamental. Asegúrense de que en la versión final del documento la imagen <code>img_1.png</code> esté correctamente insertada y sea claramente visible. Podrían incluso dividirlo en dos imágenes para mayor claridad:</p>
+            <ul>
+                <li><em>Imagen 1:</em> El diagrama entidad-relación completo.</li>
+                <li><em>Imagen 2:</em> Un recorte o versión simplificada mostrando solo las entidades y sus relaciones principales para facilitar la lectura.</li>
+            </ul>
+        </div>
+
+        <!-- Atributos de las Entidades -->
+        <h2>📋 Atributos de las Entidades</h2>
+        <p>Mencionan algunos atributos en el texto, pero no los detallan completamente. Un modelo conceptual debe incluir los atributos más representativos de cada entidad. Aquí una propuesta de mejora:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Entidad</th>
+                    <th>Atributos Sugeridos</th>
+                    <th>Clave Primaria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Cliente</strong></td>
+                    <td>id_cliente, nombre, teléfono, email, fecha_registro</td>
+                    <td>id_cliente</td>
+                </tr>
+                <tr>
+                    <td><strong>Personal</strong></td>
+                    <td>id_personal, nombre, cargo, turno, fecha_contratación</td>
+                    <td>id_personal</td>
+                </tr>
+                <tr>
+                    <td><strong>Proveedor</strong></td>
+                    <td>id_proveedor, nombre_empresa, contacto, teléfono, dirección</td>
+                    <td>id_proveedor</td>
+                </tr>
+                <tr>
+                    <td><strong>Producto</strong></td>
+                    <td>id_producto, nombre, tipo, precio, stock, id_proveedor (FK)</td>
+                    <td>id_producto</td>
+                </tr>
+                <tr>
+                    <td><strong>Boleta</strong></td>
+                    <td>id_boleta, fecha, hora, total, id_cliente (FK), id_personal (FK)</td>
+                    <td>id_boleta</td>
+                </tr>
+                <tr>
+                    <td><strong>Detalle_Boleta</strong></td>
+                    <td>id_detalle, id_boleta (FK), id_producto (FK), cantidad, precio_unitario, subtotal</td>
+                    <td>id_detalle</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Cardinalidad -->
+        <h2>🔗 Cardinalidad de las Relaciones</h2>
+        <p>Sería enriquecedor especificar la cardinalidad de las relaciones en el texto, no solo en el diagrama. Por ejemplo:</p>
+        <ul>
+            <li>Un <code>cliente</code> puede tener <strong>muchas</strong> <code>boletas</code> (1:N).</li>
+            <li>Una <code>boleta</code> pertenece a <strong>un</strong> <code>cliente</code> (N:1).</li>
+            <li>Un <code>producto</code> puede estar en <strong>muchos</strong> <code>detalles de boleta</code> (1:N).</li>
+            <li>Un <code>proveedor</code> puede suministrar <strong>muchos</strong> <code>productos</code> (1:N).</li>
+            <li>Un <code>personal</code> puede registrar <strong>muchas</strong> <code>boletas</code> (1:N).</li>
+            <li>Una <code>boleta</code> tiene <strong>muchos</strong> <code>detalles</code>, y un <code>detalle</code> pertenece a <strong>una</strong> <code>boleta</code> (1:N).</li>
+        </ul>
+
+        <!-- Entidades Adicionales -->
+        <h2>➕ Entidades Adicionales (Opcional)</h2>
+        <p>Para enriquecer el modelo conceptual y pensando en una futura implementación, podrían considerar incluir:</p>
+        <div class="suggestion-box">
+            <ul>
+                <li><strong>📦 Inventario:</strong> Para llevar un control más detallado de entradas y salidas de productos (posibles fechas de vencimiento si aplica, lotes, etc.).</li>
+                <li><strong>💰 Pagos:</strong> Si aceptan diferentes métodos de pago (efectivo, tarjeta, yape/plin), podrían tener una entidad <code>pago</code> asociada a la <code>boleta</code>.</li>
+                <li><strong>📊 Categorías de Productos:</strong> Si la variedad de productos crece, una entidad <code>categoría</code> ayudaría a clasificarlos mejor.</li>
+            </ul>
+        </div>
+
+        <!-- Conclusiones -->
+        <h2>📝 Sobre las Conclusiones y Sugerencias</h2>
+        <div style="display: flex; gap: 20px; margin: 20px 0;">
+            <div style="flex: 1; background-color: #e8f4f8; padding: 15px; border-radius: 5px;">
+                <span class="badge badge-success">✔️ LO QUE HICIERON BIEN</span>
+                <p style="margin-top: 10px;">Mencionan la importancia de organizar la información y la utilidad del DER. Hablan de futuras implementaciones como control de inventario y reportes automáticos, lo que demuestra visión a futuro.</p>
+            </div>
+            <div style="flex: 1; background-color: #fff3cd; padding: 15px; border-radius: 5px;">
+                <span class="badge badge-warning">🔧 ÁREA DE OPORTUNIDAD</span>
+                <p style="margin-top: 10px;">Podrían añadir una reflexión sobre <strong>cómo este modelo resuelve los problemas actuales del negocio</strong> y <strong>qué limitaciones podría tener</strong> (por ejemplo, no maneja devoluciones de productos, etc.).</p>
+            </div>
+        </div>
+
+        <!-- Evaluación -->
+        <h2>📈 Evaluación del Cumplimiento de Objetivos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspecto Evaluado</th>
+                    <th>Cumplimiento</th>
+                    <th>Observación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Análisis de requerimientos del negocio</td>
+                    <td style="color: green; font-weight: bold;">ALTO</td>
+                    <td>Identificaron correctamente las necesidades del carrito cafetero.</td>
+                </tr>
+                <tr>
+                    <td>Identificación de entidades y atributos</td>
+                    <td style="color: orange; font-weight: bold;">MEDIO-ALTO</td>
+                    <td>Entidades correctas, pero faltó detallar los atributos en el texto.</td>
+                </tr>
+                <tr>
+                    <td>Definición de relaciones entre entidades</td>
+                    <td style="color: green; font-weight: bold;">ALTO</td>
+                    <td>Relaciones bien definidas en el DER (asumimos que están correctas en la imagen).</td>
+                </tr>
+                <tr>
+                    <td>Elaboración del Diagrama Entidad-Relación</td>
+                    <td style="color: orange; font-weight: bold;">MEDIO</td>
+                    <td>La imagen <code>img_1.png</code> debe ser insertada para verificar el diagrama.</td>
+                </tr>
+                <tr>
+                    <td>Calidad de la redacción y formato</td>
+                    <td style="color: green; font-weight: bold;">ALTO</td>
+                    <td>Excelente redacción académica y estructura del documento.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Resumen Final -->
+        <hr>
+        <div style="background-color: #2c3e50; color: white; padding: 20px; border-radius: 8px; margin: 30px 0;">
+            <h3 style="color: white; border-bottom: 1px solid #fff; padding-bottom: 10px;">🎯 Resumen para la Versión Final</h3>
+            <ul style="color: white;">
+                <li><strong>Prioridad 1:</strong> Insertar correctamente la imagen <code>img_1.png</code> del DER en el espacio indicado.</li>
+                <li><strong>Prioridad 2:</strong> Enriquecer el desarrollo con una tabla de atributos detallada (como la sugerida).</li>
+                <li><strong>Prioridad 3:</strong> Especificar las cardinalidades de las relaciones en el texto.</li>
+                <li><strong>Prioridad 4:</strong> Profundizar las conclusiones mencionando cómo el modelo soluciona problemas específicos.</li>
+                <li><strong>Prioridad 5 (Opcional):</strong> Considerar entidades adicionales como "pagos" o "categorías" para mejorar el modelo.</li>
+            </ul>
+        </div>
+
+        <!-- Mensaje Final -->
+        <p style="font-size: 18px; text-align: center; font-style: italic; color: #2c3e50;">
+            "El modelo conceptual es la base de una buena base de datos. Han construido unos cimientos sólidos. ¡Felicitaciones equipo!"
+        </p>
+        <p style="text-align: center; font-weight: bold;">Sigan así, este tipo de trabajos aplicados a la realidad son los que realmente construyen el perfil del ingeniero.</p>
+
+        <!-- Bibliografía -->
+        <h2>📚 Referencias para Mejora</h2>
+        <p>Además de Lucidchart, pueden consultar:</p>
+        <ul>
+            <li>Elmasri, R., & Navathe, S. B. (2018). <em>Fundamentals of Database Systems</em> (7ma ed.). Pearson. (Capítulos sobre Modelado Conceptual y DER).</li>
+            <li>Silberschatz, A., Korth, H. F., & Sudarshan, S. (2020). <em>Database System Concepts</em> (7ma ed.). McGraw-Hill. (Para profundizar en el diseño lógico y físico).</li>
+        </ul>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Feedback elaborado para el equipo "Los Dogs Chamos" | Curso: Modelado de Base de Datos | UAC - 2026</p>
+            <p>💡 "La calidad no es un acto, es un hábito" - Aristóteles</p>
+        </div>
+    </div>
+</body>
+</html>
